@@ -63,6 +63,7 @@
       {"rule_set": "geosite-steam", "outbound": "🎮 Steam"},
       {"rule_set": "geosite-!cn", "outbound": "🚀 默认代理"},
       {"rule_set": "geosite-cn", "outbound": "🎯 全球直连"},
+      {"rule_set": "huawei", "outbound": "🎯 全球直连"},
       {"action": "resolve"},
       {"rule_set": "geoip-google", "outbound": "🍀 Google"},
       {"rule_set": "geoip-telegram", "outbound": "📲 Telegram"},
@@ -85,6 +86,7 @@
       {"tag": "geoip-google", "type": "remote", "format": "binary", "url": "https://gh-proxy.com/https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/sing/geo/geoip/google.srs", "download_detour": "🎯 全球直连"},
       {"tag": "geoip-telegram", "type": "remote", "format": "binary", "url": "https://gh-proxy.com/https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/sing/geo/geoip/telegram.srs", "download_detour": "🎯 全球直连"},
       {"tag": "geoip-cn", "type": "remote", "format": "binary", "url": "https://gh-proxy.com/https://github.com/qljsyph/ruleset-icon/raw/refs/heads/main/sing-box/geoip/China-ASN-combined-ip.srs", "download_detour": "🎯 全球直连"}
+      {"tag": "huawei", "type": "remote", "format": "binary", "url": "https://gh-proxy.com/https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/sing/geo/geosite/huawei.srs", "download_detour": "🎯 全球直连"}
     ],
     "final": "🐠 漏网之鱼",
     "default_domain_resolver": {"server": "public"}
